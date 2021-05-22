@@ -56,8 +56,14 @@ const label = document.getElementById('date');
 label.style.color = data.clock_fgcolor;
 label.style.fontSize = data.clock_fontsize;
 
+var minutes = date.getMinutes();
+
+if (date.getMinutes() < 10) {
+    minutes = "0" + date.getMinutes();
+}
+
 const clock = () => {
-    label.innerHTML = '<span>' + date.getHours() + ':' + date.getMinutes() + '</span>';
+    label.innerHTML = '<span>' + date.getHours() + ':' + minutes + '</span>';
     setTimeout(clock, 1000);
 };
 

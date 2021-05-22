@@ -22,6 +22,7 @@ Changelog <kbd>version 2.5</kbd>:
 * Website list can automatically find favicons
 * Fixed image border in `config.js`
 * Fixed image padding in `style.css`
+* Fixed clock showing only one number
 
 <br />
 
