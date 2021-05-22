@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 @font-face {
     font-family: 'kanji';
@@ -8,7 +9,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body{
@@ -50,9 +51,14 @@ body.dark ~ .column a.git img{
 	font-size: 17px;
 	transition: 0.4px all;
 	border-radius: 5px 5px 5px 5px;
-	width: 610px;
+	width: 400px;
     margin-bottom: 30px;
-    transition: .4s ease-in-out;
+    transition: .17s ease-in-out;
+}
+
+.input_box:focus{
+    transform: scale(1.05);
+    background: #2f313b;
 }
 
 .left{
@@ -113,15 +119,14 @@ body.dark ~ .column a.git img{
     color: #44475a;
     transition: .3s;
     letter-spacing: 0.6px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-.column a.null{
-    opacity: 0;
-    pointer-events: none;
-}
-
-.column a:hover{
+.column a.hover:hover{
     color: #919191;
+    background: #2f313b;
+    transform: translateY(-5px);
 }
 
 img{
@@ -200,8 +205,19 @@ body.dark .input_box{
     color: #111217;
 }
 
+body.dark .input_box:focus{
+    transform: scale(1.05);
+    background: #c4c4c4;
+}
+
 body.dark .column p{
     color: #111217;
+}
+
+body.dark .column a.hover:hover{
+    color: #44475a;
+    background: #c4c4c4;
+    transform: translateY(-5px);
 }
 
 body a#git img{

@@ -13,7 +13,7 @@ var data = {
     // Font size of the greeting
     greeting_fontsize: "40px",
     // Foreground color of the greeting
-    greeting_fgcolor: "#7ba5b5",
+    greeting_fgcolor: "#79acf3",
 
     // -------------------------------------------------
     // Clock config
@@ -21,7 +21,7 @@ var data = {
     // Enable/disable clock
     clock: true,
     // Foreground color of the clock
-    clock_fgcolor: "#7ba5b5",
+    clock_fgcolor: "#79acf3",
     // Font size of the clock
     clock_fontsize: "20px",
 
@@ -29,11 +29,11 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "0",
+    image_radius: "10px",
     // Border for the image
     image_border: "0px",
     // Color of the border
-    image_bordercolor: "#ba8991",
+    image_bordercolor: "#79acf3",
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
@@ -44,7 +44,8 @@ var data = {
 
     // -------------------------------------------------
     // Enable/disable site icons
-    enable_icons: true,
+    enable_icons: false,
+    links_hover: true,
 
     // -------------------------------------------------
     // Page title

@@ -64,13 +64,11 @@ if (date.getMinutes() < 10) {
 
 const clock = () => {
     label.innerHTML = '<span>' + date.getHours() + ':' + minutes + '</span>';
-    setTimeout(clock, 1000);
 };
 
 if (data.clock == true) {
     window.onload = clock();
 }
-
 
 // search engine
 
@@ -98,3 +96,10 @@ document.getElementById("search").action = search_engine;
 
 document.title = data.title;
 document.getElementById("input_box").placeholder = data.search_placeholder;
+
+if (data.links_hover == true) {
+    links = document.querySelectorAll(".column a");
+    for (var i=0; i < links.length; i++) {
+      links[i].classList.add("hover");
+    }
+}
