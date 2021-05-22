@@ -59,12 +59,22 @@ Changelog <kbd>version 2.5</kbd>:
 ## Changing links:
 ```html
 <div class="column">
-    <p>COLUMN NAME</p>
+    <p>SECTION TITLE</p>
     <!-- Sostitute "link" with "null" if you want a blank link -->
-    <!-- Many websites uses favicon.ico as icon. If you don't find it smiply download a png/ico/svg icon and put its path <img src="HERE"> -->
-    <a class="link" href="WEBSITE LINK"><img src="WEBSITE/favicon.ico">WEBSITE NAME</a>
+    <a class="link" href="WEBSITE LINK">WEBSITE NAME</a>
     <!-- To make a link opening in a new tab, add 'target="_BLANK"' inside the link tag -->
     <a target="_BLANK"></a>
+</div>
+```
+
+```html
+<div>: column container
+├── <p>: section title
+│    ├── <a>: bookmark
+│    └── <a>: bookmark
+└── <p>: section title
+     ├── <a>: bookmark
+     └── <a>: bookmark
 </div>
 ```
 
