@@ -9,7 +9,7 @@
 
 <br />
 
-# A minimal startpage for the browser
+# A startpage for the browser
   
 ## Release 2.5 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
@@ -27,8 +27,14 @@ Changelog <kbd>version 2.5</kbd>:
 * Fixed clock showing only one number
 
 <br />
+<br />
+<br />
 
-# Set up
+## [🚀️ Demo on Github Pages](https://alededorigo.github.io/startpage/)
+
+<br />
+<br />
+<br />
 
 <img style="border-radius: 4px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1615300936/preview_nosmbp.gif" alt="screenshot"/>
 
