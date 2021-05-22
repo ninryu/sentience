@@ -52,6 +52,7 @@ Changelog <kbd>version 2.5</kbd>:
     ```js
     67 | user_pref("browser.startup.homepage", "/path/to/index.html");
     ```
+    > to open the page, go into `about:profiles`, and open your profile directory
     * Chrome: Go into
     ``` Options > Start > Homepage```
 
