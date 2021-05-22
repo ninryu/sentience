@@ -30,7 +30,7 @@ Changelog <kbd>version 2.5</kbd>:
 <br />
 <br />
 
-## [🚀️ Demo on Github Pages](https://alededorigo.github.io/startpage/)
+## <a target="_BLANK" href="https://alededorigo.github.io/startpage/">🚀️ Demo on Github Pages</a>
 
 <br />
 <br />
