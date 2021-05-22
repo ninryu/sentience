@@ -11,20 +11,17 @@
 
 # A minimal startpage for the browser
   
-## Release 2.1 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=for-the-badge"/>
+## Release 2.5 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=for-the-badge"/>
 
-<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.1">
+<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.5">
   <img style="border-radius: 4px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1615294890/image_2021-03-09_14-00-52_xiacwg.png" alt="preview" align="right" width="400px"/>
 </a>
 
 
-Changelog <kbd>version 2.1</kbd>:
-* Updated config.js: you can configure the startpage with a config file ([config.js](https://github.com/Alededorigo/Kanji/blob/main/config.js))
-* Changed clock font style
-* Fixed favicon errors
-* Made the search bar placeholder configurable
-* Added the ability to change search engine in the config file
-* Fixed some bugs in the HTML file
+Changelog <kbd>version 2.5</kbd>:
+* Website list can automatically find favicons
+* Fixed image border in `config.js`
+* Fixed image padding in `style.css`
 
 <br />
 

@@ -2,14 +2,20 @@
 let image = document.getElementById('cover');
 
 image.style.borderRadius = data.image_radius;
-document.querySelector('.left').style.borderSize = data.image_border;
-document.querySelector('.left').style.borderColor = data.image_bordercolor;
-document.querySelector('.left').style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
 image.style.width = data.image_width;
 image.style.height = data.image_width;
-document.querySelector('.left').style.width = data.image_width;
-document.querySelector('.left').style.height = data.image_width;
+image.src = data.image_source;
+
+let left = document.querySelector('.left');
+
+left.style.borderSize = data.image_border;
+left.style.borderColor = data.image_bordercolor;
+left.style.borderRadius = data.image_radius;
+left.style.width = data.image_width;
+left.style.height = data.image_width;
+
+// icons
 
 if (data.enable_icons == true) {
     $("a[href^='http']").each(function() {
@@ -17,7 +23,8 @@ if (data.enable_icons == true) {
     });
 }
 
-// Greetings
+// greetings
+
 let today = new Date();
 let hour = today.getHours();
 
@@ -41,12 +48,14 @@ if (hour >= 23 && hour < 5) {
 greetings.style.fontSize = data.greeting_fontsize;
 greetings.style.color = data.greeting_fgcolor;
 
-// Clock
+// clock
+
 var date = new Date();
 
 const label = document.getElementById('date');
 label.style.color = data.clock_fgcolor;
 label.style.fontSize = data.clock_fontsize;
+
 const clock = () => {
     label.innerHTML = '<span>' + date.getHours() + ':' + date.getMinutes() + '</span>';
     setTimeout(clock, 1000);
@@ -54,14 +63,10 @@ const clock = () => {
 
 if (data.clock == true) {
     window.onload = clock();
-} else {
-    console.log('clock is disabled');
 }
 
-document.title = data.title;
 
-document.getElementById("cover").src = data.image_source;
-document.getElementById("input_box").placeholder = data.search_placeholder;
+// search engine
 
 let search_engine;
 
@@ -81,5 +86,9 @@ if (data.search_engine == "google") {
     document.getElementById('error').classList.toggle('enabled');
 }
 
-
 document.getElementById("search").action = search_engine;
+
+// misc
+
+document.title = data.title;
+document.getElementById("input_box").placeholder = data.search_placeholder;

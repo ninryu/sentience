@@ -31,7 +31,7 @@ var data = {
     // Border radius: set it to 50% to create a circle
     image_radius: "0",
     // Border for the image
-    image_border: "5px",
+    image_border: "0px",
     // Color of the border
     image_bordercolor: "#ba8991",
     // Filters for the image.
