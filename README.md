@@ -1,6 +1,11 @@
-![bg](bg.png)
+<h1 align="center">startpage
+<p align="center">
+<img src="https://img.shields.io/github/license/alededorigo/kanji?color=%23cd58f4&style=flat">
+<img src="https://img.shields.io/github/v/release/alededorigo/kanji?color=ee4f84&include_prereleases&style=flat">
+<img src="https://img.shields.io/github/last-commit/alededorigo/kanji?color=%231ce590&style=flat">
+</p>
+</h1>
 
-![licence](https://img.shields.io/github/license/alededorigo/kanji?color=%23cd58f4&style=for-the-badge) ![release](https://img.shields.io/github/v/release/alededorigo/kanji?color=ee4f84&include_prereleases&style=for-the-badge) ![lastcommit](https://img.shields.io/github/last-commit/alededorigo/kanji?color=%231ce590&style=for-the-badge)
 
 <br />
 
