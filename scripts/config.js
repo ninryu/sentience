@@ -2,7 +2,7 @@
 let image = document.getElementById('cover');
 
 image.style.borderRadius = data.image_radius;
-document.querySelector('.left').style.border = data.image_border;
+document.querySelector('.left').style.borderSize = data.image_border;
 document.querySelector('.left').style.borderColor = data.image_bordercolor;
 document.querySelector('.left').style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
@@ -11,12 +11,10 @@ image.style.height = data.image_width;
 document.querySelector('.left').style.width = data.image_width;
 document.querySelector('.left').style.height = data.image_width;
 
-let icons = document.querySelectorAll('a img');
-
-if (data.enable_icons == false) {
-    for (var i = 0, max = icons.length; i < max; i++) {
-        icons[i].remove();
-    }
+if (data.enable_icons == true) {
+    $("a[href^='http']").each(function() {
+        $(this).prepend('<img src="https://www.google.com/s2/favicons?domain=' + this.href + '">');
+    });
 }
 
 // Greetings
