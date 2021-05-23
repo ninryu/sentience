@@ -49,6 +49,8 @@ Changelog <kbd>version 2.5</kbd>:
     * Firefox: Go into
     ```Preferences > Home > Homepage and new windows```
     
+    <br/>
+    
     > or editing the `prefs.js` file
     ```js
     67 | user_pref("browser.startup.homepage", "/path/to/index.html");
