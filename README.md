@@ -41,6 +41,18 @@ Changelog <kbd>version 2.5</kbd>:
 ## Extensions:
 * For Firefox use "Custom New Tab Page"
 * For Chrome use "Custom New Tab"
+* Or you can load the index.html as an extension <kbd>beta</kbd>
+  > jQuery is blocket on firefox
+  - If you are on Firefox:
+    - go to `about:debugging`
+    - then on `this firefox`
+    - `load temporary add-on`
+    - locate the `index.html` file and open it
+  - If you are on Chrome (or other Chromium browsers): <kbd>not tested</kbd>
+    - go to `chrome://extensions`
+    - enable developer mode
+    - click `load unpacked`
+    - choose the folder
 
 ## Usage:
 - On the new tab: use one of the [extensions](#extensions) mentioned
