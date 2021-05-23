@@ -1,0 +1,12 @@
+{
+	"name": "kStartpage",
+	"version": "2.5",
+	"description": "🗻 A minimal startpage for the browser.",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"icons": {
+		"16": "./favicon.ico"
+	},
+	"manifest_version": 2
+}
