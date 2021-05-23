@@ -78,10 +78,6 @@ Changelog <kbd>version 2.5</kbd>:
 </div>
 ```
 
-## Resources that i used:
-* Mt Fuji picture: [WallpaperCave](https://wallpapercave.com/mt-fuji-wallpaper)
-* Fonts: see [HTML file](https://github.com/Alededorigo/Kanji/blob/main/index.html)
-
 ## Credits:
 * [Font for greetings](https://www.1001fonts.com/electroharmonix-font.html)
 * [Image on left](https://wallpapercave.com/mt-fuji-wallpaper)
