@@ -63,6 +63,6 @@ var data = {
     // startpage
     // ecosia
     // youtube
-    search_engine: "duckduckgo",
+    search_engine: "google",
 
 }

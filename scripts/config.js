@@ -1,13 +1,17 @@
-// Main ----------------------------------------
+let greetings = document.getElementById('greetings');
 let image = document.getElementById('cover');
+let clockLabel = document.getElementById('date');
+let left = document.querySelector('.left');
+let search = document.getElementById("search");
+let search_engine = undefined;
+let inputBox = document.getElementById("input_box");
+let error = document.getElementById('error');
 
 image.style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
 image.style.width = data.image_width;
 image.style.height = data.image_width;
 image.src = data.image_source;
-
-let left = document.querySelector('.left');
 
 left.style.borderSize = data.image_border;
 left.style.borderColor = data.image_bordercolor;
@@ -18,6 +22,7 @@ left.style.height = data.image_width;
 // icons
 
 if (data.enable_icons == true) {
+    // jQuery
     $("a[href^='http']").each(function() {
         $(this).prepend('<img src="https://www.google.com/s2/favicons?domain=' + this.href + '">');
     });
@@ -33,7 +38,6 @@ var g2 = data.g2;
 var g3 = data.g3;
 var g4 = data.g4;
 
-var greetings = document.getElementById('greetings');
 
 if (hour >= 23 && hour < 5) {
     greetings.innerText = g1;
@@ -49,21 +53,24 @@ greetings.style.fontSize = data.greeting_fontsize;
 greetings.style.color = data.greeting_fgcolor;
 
 // clock
+// see `today` at line 27
 
-var date = new Date();
+clockLabel.style.color = data.clock_fgcolor;
+clockLabel.style.fontSize = data.clock_fontsize;
 
-const label = document.getElementById('date');
-label.style.color = data.clock_fgcolor;
-label.style.fontSize = data.clock_fontsize;
+var hours = today.getHours();
+var minutes = today.getMinutes();
 
-var minutes = date.getMinutes();
+if (today.getHours() < 10) {
+    hours = "0" + today.getHours();
+}
 
-if (date.getMinutes() < 10) {
+if (today.getMinutes() < 10) {
     minutes = "0" + date.getMinutes();
 }
 
 const clock = () => {
-    label.innerHTML = '<span>' + date.getHours() + ':' + minutes + '</span>';
+    clockLabel.innerHTML = '<span>' + hours + ':' + minutes + '</span>';
 };
 
 if (data.clock == true) {
@@ -72,30 +79,36 @@ if (data.clock == true) {
 
 // search engine
 
-let search_engine;
-
-if (data.search_engine == "google") {
-    search_engine = "https://google.com/search";
-} else if (data.search_engine == "duckduckgo") {
-    search_engine = "https://www.duckduckgo.com/"
-} else if (data.search_engine == "qwant") {
-    search_engine = "https://www.qwant.com/"
-} else if (data.search_engine == "startpage") {
-    search_engine = "https://www.startpage.com/search"
-} else if (data.search_engine == "ecosia") {
-    search_engine = "https://www.ecosia.org/search"
-} else if (data.search_engine == "youtube") {
-    search_engine = "https://www.youtube.com/search"
-} else {
-    document.getElementById('error').classList.toggle('enabled');
+switch (data.search_engine) {
+    case "google":
+        search_engine = "https://google.com/search";
+        break;
+    case "duckduckgo":
+        search_engine = "https://www.duckduckgo.com/"
+        break;
+    case "qwant":
+        search_engine = "https://www.qwant.com/"
+        break;
+    case "startpage":
+        search_engine = "https://www.startpage.com/search"
+        break;
+    case "ecosia":
+        search_engine = "https://www.ecosia.org/search"
+        break;
+    case "youtube":
+        search_engine = "https://www.youtube.com/search"
+        break;
+    default:
+        error.classList.toggle('enabled');
+        break;
 }
 
-document.getElementById("search").action = search_engine;
+search.action = search_engine;
 
 // misc
 
 document.title = data.title;
-document.getElementById("input_box").placeholder = data.search_placeholder;
+inputBox.placeholder = data.search_placeholder;
 
 if (data.links_hover == true) {
     links = document.querySelectorAll(".column a");
