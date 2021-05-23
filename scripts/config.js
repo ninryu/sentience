@@ -1,3 +1,5 @@
+// variables
+
 let greetings = document.getElementById('greetings');
 let image = document.getElementById('cover');
 let clockLabel = document.getElementById('date');
@@ -6,6 +8,8 @@ let search = document.getElementById("search");
 let search_engine = undefined;
 let inputBox = document.getElementById("input_box");
 let error = document.getElementById('error');
+
+// cover
 
 image.style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
@@ -37,7 +41,6 @@ var g1 = data.g1;
 var g2 = data.g2;
 var g3 = data.g3;
 var g4 = data.g4;
-
 
 if (hour >= 23 && hour < 5) {
     greetings.innerText = g1;
