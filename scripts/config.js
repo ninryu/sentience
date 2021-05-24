@@ -11,7 +11,6 @@ let error = document.getElementById('error');
 
 // cover
 
-image.style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
 image.style.width = data.image_width;
 image.style.height = data.image_width;

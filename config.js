@@ -37,7 +37,7 @@ var data = {
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
-    image_width: "350px",
+    image_width: "300px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
     image_source: "https://raw.githubusercontent.com/Alededorigo/Kanji/main/img/kanji.jpg",
