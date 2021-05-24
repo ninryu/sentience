@@ -104,3 +104,4 @@ Changelog <kbd>version 2.5</kbd>:
 ## Credits:
 * [Font for greetings](https://www.1001fonts.com/electroharmonix-font.html)
 * [Image on left](https://wallpapercave.com/mt-fuji-wallpaper)
+* [jQuery](https://jquery.com/)
