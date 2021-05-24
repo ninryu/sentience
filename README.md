@@ -13,16 +13,15 @@
   
 ## Release 2.5 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
-<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.5">
+<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.6">
   <img style="border-radius: 4px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1621709359/cover.png" alt="preview" align="right" width="400px"/>
 </a>
 
 
-Changelog <kbd>version 2.5</kbd>:
-* Website list can automatically find favicons
-* Removed null links
-* Hover effect on links, and focus on inputbar
+Changelog <kbd>version 2.6</kbd>:
+* `metadata.json`
 * Fixed image border in `config.js`
+* Hover effect on links, and focus on inputbar
 * Fixed image padding in `style.css`
 * Fixed clock showing only one number
 
