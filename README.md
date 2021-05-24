@@ -11,7 +11,7 @@
 
 # A startpage for the browser
   
-## Release 2.5 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
+## Release 2.6 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
 <a href="https://github.com/Alededorigo/Kanji/releases/tag/2.6">
   <img style="border-radius: 4px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1621709359/cover.png" alt="preview" align="right" width="400px"/>
