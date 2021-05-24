@@ -42,7 +42,7 @@ Changelog <kbd>version 2.5</kbd>:
 * For Firefox use "Custom New Tab Page"
 * For Chrome use "Custom New Tab"
 * Or you can load the index.html as an extension <kbd>beta</kbd>
-  > jQuery is blocket on firefox
+  > testing
   - If you are on Firefox:
     - go to `about:debugging`
     - then on `this firefox`
@@ -53,6 +53,12 @@ Changelog <kbd>version 2.5</kbd>:
     - enable developer mode
     - click `load unpacked`
     - choose the folder
+  > permanent
+  - If you are on Firefox:
+    - go to `about:config`, and set to `false` `xpinstall.signatures.required`.
+    - go to `about:addons`
+    - click on `extensions`
+    - drag the zip in on the page
 
 ## Usage:
 - On the new tab: use one of the [extensions](#extensions) mentioned
