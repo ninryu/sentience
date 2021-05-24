@@ -54,6 +54,8 @@ Changelog <kbd>version 2.5</kbd>:
     - click `load unpacked`
     - choose the folder
   > permanent
+  
+  > see [metadata.json](https://raw.githubusercontent.com/Alededorigo/startpage/main/manifest.json) for details
   - If you are on Firefox:
     - go to `about:config`, and set to `false` `xpinstall.signatures.required`.
     - go to `about:addons`
