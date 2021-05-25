@@ -60,6 +60,8 @@ greetings.style.color = data.greeting_fgcolor;
 clockLabel.style.color = data.clock_fgcolor;
 clockLabel.style.fontSize = data.clock_fontsize;
 
+var date = new Date();
+
 var hours = today.getHours();
 var minutes = today.getMinutes();
 
