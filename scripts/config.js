@@ -60,8 +60,6 @@ greetings.style.color = data.greeting_fgcolor;
 clockLabel.style.color = data.clock_fgcolor;
 clockLabel.style.fontSize = data.clock_fontsize;
 
-var date = new Date();
-
 var hours = today.getHours();
 var minutes = today.getMinutes();
 
@@ -70,7 +68,7 @@ if (today.getHours() < 10) {
 }
 
 if (today.getMinutes() < 10) {
-    minutes = "0" + date.getMinutes();
+    minutes = "0" + today.getMinutes();
 }
 
 const clock = () => {
