@@ -13,32 +13,20 @@
 		<script src="./config.js"></script>
 	</head>
 	<body>
-		<div id="date">
-			
-		</div>
-		<div id="toggle">
-			<span></span>
-			<span></span>
-		</div>
 		<div class="column-container">
 			<div class="left">
 				<img id="cover">
 			</div>
 
-			<div class="clock">
-				<div id="hour" class=""></div>
-				<div id="separator" class=""></div>
-				<div id="minutes" class=""></div>
-			</div>
-
 			<div class="right">
-				<div id="greetings" class=""></div>
+				<div id="greetings"></div>
 				<div class="search_box">
 					<form id="search" method="get">
 					<input id="input_box" class="input_box" type="text" name="q" autocomplete="off"/>
+					</form>
 				</div>
 				<div class="container">
-					<div class="column" id="column">
+					<div class="column">
 						<p>Git</p>
 						<a id="git" class="link" href="https://github.com">GitHub</a>
 						<a id="git" class="link" href="https://github.com/alededorigo/editor">editor</a>
@@ -58,23 +46,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div id="error" class="error">
-			<h1>Error in config.js</h1>
-			<p>You should choose a search engine from the list</p>
-			<div class="list">
-				<p>List:</p>
-				<ul>
-					<li>google</li>
-					<li>duckduckgo</li>
-					<li>qwant</li>
-					<li>startpage</li>
-					<li>ecosia</li>
-					<li>youtube</li>
-				</ul>
+			<div id="date"></div>
+
+			<div id="toggle">
+				<span></span>
+				<span></span>
 			</div>
-		</div>
 
 		<script src="./scripts/config.js"></script>
 		<script src="./scripts/darkmode.js"></script>

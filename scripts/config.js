@@ -7,7 +7,6 @@ let left = document.querySelector('.left');
 let search = document.getElementById("search");
 let search_engine = undefined;
 let inputBox = document.getElementById("input_box");
-let error = document.getElementById('error');
 
 // cover
 
@@ -16,7 +15,7 @@ image.style.width = data.image_width;
 image.style.height = data.image_width;
 image.src = data.image_source;
 
-left.style.borderSize = data.image_border;
+left.style.borderWidth = data.image_border;
 left.style.borderColor = data.image_bordercolor;
 left.style.borderRadius = data.image_radius;
 left.style.width = data.image_width;
@@ -101,11 +100,36 @@ switch (data.search_engine) {
         search_engine = "https://www.youtube.com/search"
         break;
     default:
-        error.classList.toggle('enabled');
+        console.log("Please, choose a search engine from the list.")
         break;
 }
 
 search.action = search_engine;
+
+// keybindings
+
+document.onkeydown = function(e) {
+    switch(e.which) {
+        // open search box by pressing '/'
+        case 191:
+            inputBox.select();
+            inputBox.value = "";
+            break;
+
+        // switch to dark mode by pressing 'm'
+        case 77:
+            mode = localStorage.getItem("mode");
+            if (mode != "istrue") { // Fix
+              localStorage.setItem("mode", "istrue");
+              body.classList.add("dark");
+            } else {
+              localStorage.setItem("mode", null);
+              body.classList.remove("dark");
+            }
+
+        default: return;
+    }
+};
 
 // misc
 
