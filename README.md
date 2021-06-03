@@ -21,10 +21,6 @@
 
 # **A startpage for the browser**
 
-<blockquote>
-<h2><a href="https://alededorigo.github.io/startpage/">🚀️ Demo on Github Pages</a></h2>
-</blockquote>
-
 ## Release 2.9 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
 <a href="https://github.com/Alededorigo/Kanji/releases/tag/2.9">
@@ -34,17 +30,19 @@
 Changelog <kbd>version 2.9</kbd>:
 
 - [added] [`metadata.json`](https://github.com/Alededorigo/startpage/commit/58e381c169df3d06280d09c8c904f99e17d3c8f3)
-- [[added]()] keyboard shortcuts
+- [[added](https://github.com/Alededorigo/startpage/commit/7c6bfc27bd651019271256908c072ddff45e731f)] keyboard shortcuts
 - [added] CSS variables
 - [improved] shadows and colors
 - [improved] cleaned up the code
-- [fixed] border configuration
+- [[fixed](https://github.com/Alededorigo/startpage/commit/7c6bfc27bd651019271256908c072ddff45e731f)] border configuration
 - [fixed] firefox extension
 - [fixed] some issues with the image
 
 <br />
 <br />
 <br />
+
+# [🚀️ Demo on Github Pages](https://alededorigo.github.io/startpage/)
 
 <br />
 <br />
@@ -70,9 +68,12 @@ Changelog <kbd>version 2.9</kbd>:
     - enable developer mode
     - click `load unpacked`
     - choose the folder
-      > permanent
+
+  > permanent
 
   > see [metadata.json](https://raw.githubusercontent.com/Alededorigo/startpage/main/manifest.json) for details
+
+  > ⇩ Download the zip from [**here**](https://github.com/Alededorigo/startpage/releases)
 
   - If you are on Firefox:
     - go to `about:config`, and set to `false` `xpinstall.signatures.required`.
@@ -93,7 +94,7 @@ Changelog <kbd>version 2.9</kbd>:
     > or editing the `prefs.js` file
 
     ```js
-    67 | user_pref("browser.startup.homepage", "/path/to/index.html");
+    67 | user_pref("browser.startup.homepage", "/path/to/index.html")
     ```
 
     > to open the file, go into `about:profiles`, and open your profile directory
