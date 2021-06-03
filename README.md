@@ -125,6 +125,13 @@ Changelog <kbd>version 2.9</kbd>:
 </div>
 ```
 
+## Keybindings:
+
+| Key | Function                                      |
+| --- | --------------------------------------------- |
+| `m` | Mode - switch between light and dark mode     |
+| `/` | Search - focus the search box <kbd>beta</kbd> |
+
 ## Credits:
 
 - [Font for greetings](https://www.1001fonts.com/electroharmonix-font.html)
