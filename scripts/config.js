@@ -110,22 +110,24 @@ search.action = search_engine;
 
 document.onkeydown = function(e) {
     switch(e.which) {
-        // open search box by pressing '/'
+        // open search box by pressing `/`
         case 191:
             inputBox.select();
             inputBox.value = "";
             break;
 
-        // switch to dark mode by pressing 'm'
-        case 77:
+        // switch to dark mode by pressing `ctrl + m`
+        case e.ctrlKey && 77:
             mode = localStorage.getItem("mode");
-            if (mode != "istrue") { // Fix
+            if (mode != "istrue") {
               localStorage.setItem("mode", "istrue");
               body.classList.add("dark");
             } else {
               localStorage.setItem("mode", null);
               body.classList.remove("dark");
             }
+            // ctrl + m mutes the tab, this blocks this behavior
+            e.preventDefault();
 
         default: return;
     }

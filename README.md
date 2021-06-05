@@ -127,10 +127,10 @@ Changelog <kbd>version 2.9</kbd>:
 
 ## Keybindings:
 
-| Key | Function                                      |
-| --- | --------------------------------------------- |
-| `m` | Mode - switch between light and dark mode     |
-| `/` | Search - focus the search box <kbd>beta</kbd> |
+| Key        | Function                                      |
+| ---------- | --------------------------------------------- |
+| `ctrl + m` | Mode - switch between light and dark mode     |
+| `/`        | Search - focus the search box <kbd>beta</kbd> |
 
 ## Credits:
 
