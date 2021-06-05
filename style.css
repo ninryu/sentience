@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "kanji";
-  src: url("https://raw.githubusercontent.com/Alededorigo/Kanji/main/fonts/kanji.ttf");
+  src: url("./fonts/kanji.ttf");
 }
 
 * {
