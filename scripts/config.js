@@ -17,6 +17,7 @@ image.src = data.image_source;
 
 left.style.borderWidth = data.image_border;
 left.style.borderColor = data.image_bordercolor;
+document.querySelector('meta[name="theme-color"]').setAttribute('content',  data.image_bordercolor);
 left.style.borderRadius = data.image_radius;
 left.style.width = data.image_width;
 left.style.height = data.image_width;
@@ -55,7 +56,7 @@ greetings.style.fontSize = data.greeting_fontsize;
 greetings.style.color = data.greeting_fgcolor;
 
 // clock
-// see `today` at line 27
+// see `today`
 
 clockLabel.style.color = data.clock_fgcolor;
 clockLabel.style.fontSize = data.clock_fontsize;
