@@ -224,14 +224,6 @@ body.dark .column a.hover:hover {
   background: var(--white-alt);
 }
 
-body a#git img {
-  filter: invert(1) grayscale(1);
-}
-
-body.dark a#git img {
-  filter: invert(0) grayscale(1);
-}
-
 body.dark img {
   -webkit-filter: grayscale(60%) brightness(1.3); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) brightness(1.3);
