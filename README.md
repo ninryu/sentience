@@ -21,30 +21,31 @@
 
 # **A startpage for the browser**
 
-## Release 2.9 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
+## Release 3.0 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
-<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.9">
-  <img style="border-radius: 6px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1621709359/cover.png" alt="preview" align="right" width="400px"/>
+<a href="https://github.com/Alededorigo/Kanji/releases/tag/3.0">
+  <img style="border-radius: 6px" src="https://res.cloudinary.com/adwebsite/image/upload/v1622912733/screenshot.png" alt="preview" align="right" width="400px"/>
 </a>
 
-Changelog <kbd>version 2.9</kbd>:
+[Changelog](https://github.com/Alededorigo/startpage/blob/main/changelog.md) <kbd>version 3.0</kbd>:
 
-- [added] [`metadata.json`](https://github.com/Alededorigo/startpage/commit/58e381c169df3d06280d09c8c904f99e17d3c8f3)
-- [[added](https://github.com/Alededorigo/startpage/commit/7c6bfc27bd651019271256908c072ddff45e731f)] keyboard shortcuts
-- [added] CSS variables
-- [improved] shadows and colors
-- [improved] cleaned up the code
-- [[fixed](https://github.com/Alededorigo/startpage/commit/7c6bfc27bd651019271256908c072ddff45e731f)] border configuration
-- [fixed] firefox extension
-- [fixed] some issues with the image
+- [fixed] `ctrl + m` instead of `m` to change mode
+- [fixed] `/` issues in the search bar
+- [fixed] icons
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
 
 # [🚀️ Demo on Github Pages](https://alededorigo.github.io/startpage/)
 
-<br />
 <br />
 <br />
 
@@ -107,9 +108,8 @@ Changelog <kbd>version 2.9</kbd>:
 ```html
 <div class="column">
   <p>SECTION TITLE</p>
-  <!-- Sostitute "link" with "null" if you want a blank link -->
   <a class="link" href="WEBSITE LINK">WEBSITE NAME</a>
-  <!-- To make a link opening in a new tab, add 'target="_BLANK"' inside the link tag -->
+  <!-- To make a link opening in a new tab, add 'target="_BLANK"' inside the link tag: -->
   <a target="_BLANK"></a>
 </div>
 ```
@@ -127,13 +127,12 @@ Changelog <kbd>version 2.9</kbd>:
 
 ## Keybindings:
 
-| Key        | Function                                      |
-| ---------- | --------------------------------------------- |
-| `ctrl + m` | Mode - switch between light and dark mode     |
-| `/`        | Search - focus the search box <kbd>beta</kbd> |
+| Key        | Function                                  |
+| ---------- | ----------------------------------------- |
+| `ctrl + m` | Mode - switch between light and dark mode |
+| `/`        | Search - focus the search box             |
 
 ## Credits:
 
 - [Font for greetings](https://www.1001fonts.com/electroharmonix-font.html)
 - [Image on left](https://wallpapercave.com/mt-fuji-wallpaper)
-- [jQuery](https://jquery.com/)

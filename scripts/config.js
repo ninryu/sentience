@@ -24,10 +24,11 @@ left.style.height = data.image_width;
 // icons
 
 if (data.enable_icons == true) {
-    // jQuery
-    $("a[href^='http']").each(function() {
-        $(this).prepend('<img src="https://www.google.com/s2/favicons?domain=' + this.href + '">');
-    });
+    const target = document.querySelectorAll('.container a');
+
+    for(var i = 0; i < target.length; i++){
+        target[i].innerHTML = '<img src="https://www.google.com/s2/favicons?domain=' + target[i].href + '">' + target[i].textContent
+    }
 }
 
 // greetings
@@ -114,6 +115,7 @@ document.onkeydown = function(e) {
         case 191:
             inputBox.select();
             inputBox.value = "";
+            e.preventDefault();
             break;
 
         // switch to dark mode by pressing `ctrl + m`

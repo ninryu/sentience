@@ -2,9 +2,11 @@
 
 ## Releases:
 
-- 3.0 <kbd>beta</kbd>
+- 3.0
 
   - [fixed] `ctrl + m` instead of `m` to change mode
+  - [fixed] `/` issues in the search bar
+  - [fixed] icons
 
 - 2.9
 
