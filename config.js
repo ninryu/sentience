@@ -40,7 +40,7 @@ var data = {
     image_width: "300px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://i.pximg.net/img-original/img/2021/02/28/18/03/02/88114844_p1.jpg",
+    image_source: "https://i.postimg.cc/yYd4NzFX/88114844-p1.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
