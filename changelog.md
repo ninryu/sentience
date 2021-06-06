@@ -4,13 +4,15 @@
 
 - 3.1 <kbd>dev</kbd>
 
-  - [added] Chrome theme-color meta tag
+  - [[added](https://github.com/Alededorigo/startpage/commit/23e37f84a1d4cc6f55be543789ffb0801ad145f2)] Chrome theme-color meta tag
+  - [added] `package.sh` for extensions
   - [improved] input box style
   - [improved] light instead of dark in CSS
   - [fixed] font issues for greetings
   - [fixed] removed useless metadata
   - [fixed] gap between image and links
-  - [fixed] write `/` in input box after focused
+  - [fixed] font issues
+  - [[fixed](https://github.com/Alededorigo/startpage/commit/e0c797d3199b7ad878bc7585cc06ada79cb1f8de)] write `/` in input box after focused
 
 - 3.0
 

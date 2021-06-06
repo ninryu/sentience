@@ -57,30 +57,19 @@
 - For Chrome use "Custom New Tab"
 - Or you can load the index.html as an extension <kbd>beta</kbd>
 
-  > testing
+  > see [metadata.json](https://raw.githubusercontent.com/Alededorigo/startpage/main/manifest.json) for details
 
   - If you are on Firefox:
+    > ⇩ Download the zip from [**here**](https://github.com/Alededorigo/startpage/releases)
     - go to `about:debugging`
     - then on `this firefox`
     - `load temporary add-on`
     - locate the `index.html` file and open it
-  - If you are on Chrome (or other Chromium browsers): <kbd>not tested</kbd>
+  - If you are on Chrome (or other Chromium browsers):
     - go to `chrome://extensions`
     - enable developer mode
-    - click `load unpacked`
-    - choose the folder
-
-  > permanent
-
-  > see [metadata.json](https://raw.githubusercontent.com/Alededorigo/startpage/main/manifest.json) for details
-
-  > ⇩ Download the zip from [**here**](https://github.com/Alededorigo/startpage/releases)
-
-  - If you are on Firefox:
-    - go to `about:config`, and set to `false` `xpinstall.signatures.required`.
-    - go to `about:addons`
-    - click on `extensions`
-    - drag the zip in on the page
+    - drag here the folder
+      > if you are on Linux/macOS you can run the `package.sh` file
 
 ## Usage:
 
