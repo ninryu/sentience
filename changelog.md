@@ -2,6 +2,16 @@
 
 ## Releases:
 
+- 3.1 <kbd>dev</kbd>
+
+  - [added] Chrome theme-color meta tag
+  - [improved] input box style
+  - [improved] light instead of dark in CSS
+  - [fixed] font issues for greetings
+  - [fixed] removed useless metadata
+  - [fixed] gap between image and links
+  - [fixed] write `/` in input box after focused
+
 - 3.0
 
   - [fixed] `ctrl + m` instead of `m` to change mode

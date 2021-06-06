@@ -114,20 +114,21 @@ document.onkeydown = function(e) {
     switch(e.which) {
         // open search box by pressing `/`
         case 191:
-            inputBox.select();
-            inputBox.value = "";
-            e.preventDefault();
+            if (inputBox !== document.activeElement) {
+                inputBox.select();
+                e.preventDefault();   
+            }
             break;
 
-        // switch to dark mode by pressing `ctrl + m`
+        // switch light/dark mode by pressing `ctrl + m`
         case e.ctrlKey && 77:
             mode = localStorage.getItem("mode");
             if (mode != "istrue") {
               localStorage.setItem("mode", "istrue");
-              body.classList.add("dark");
+              body.classList.add("light");
             } else {
               localStorage.setItem("mode", null);
-              body.classList.remove("dark");
+              body.classList.remove("light");
             }
             // ctrl + m mutes the tab, this blocks this behavior
             e.preventDefault();

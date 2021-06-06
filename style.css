@@ -33,7 +33,7 @@ body {
   justify-content: center;
 }
 
-body.dark {
+body.light {
   background-color: var(--white-bg);
   width: 100%;
   height: 100vh;
@@ -56,13 +56,14 @@ body.dark {
   font-size: 17px;
   transition: 0.4px all;
   border-radius: 5px 5px 5px 5px;
-  width: 400px;
+  width: 350px;
   margin-bottom: 25px;
   transition: 0.17s ease-in-out;
 }
 
-.input_box:focus {
-  transform: scale(1.05);
+.input_box:hover,
+.input_box:focus,
+.input_box:active {
   background: #2f313b;
 }
 
@@ -92,7 +93,7 @@ body.dark {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .column {
@@ -197,39 +198,40 @@ img {
   transition: 0.4s ease-out;
 }
 
-body.dark #toggle span:nth-child(1) {
+body.light #toggle span:nth-child(1) {
   border-bottom: 3px solid var(--dark-bg);
 }
 
-body.dark #toggle span:nth-child(2) {
+body.light #toggle span:nth-child(2) {
   border-top: 3px solid transparent;
   transform: rotate(0deg) translateX(-5px) translateY(10px);
 }
 
-body.dark .input_box {
+body.light .input_box {
   color: var(--dark-bg);
 }
 
-body.dark .input_box:focus {
-  transform: scale(1.05);
+body.light .input_box:hover,
+body.light .input_box:focus,
+body.light .input_box:active {
   background: var(--white-alt);
 }
 
-body.dark .column p {
+body.light .column p {
   color: var(--dark-bg);
 }
 
-body.dark .column a.hover:hover {
+body.light .column a.hover:hover {
   color: #44475a;
   background: var(--white-alt);
 }
 
-body.dark img {
+body.light img {
   -webkit-filter: grayscale(60%) brightness(1.3); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) brightness(1.3);
 }
 
-body.dark ::selection {
+body.light ::selection {
   background: var(--white-alt);
 }
 
