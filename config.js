@@ -33,6 +33,8 @@ var data = {
     // Border for the image
     image_border: "0px",
     // Color of the border
+    // Filters for the image.
+    image_filter: "grayscale(0%) brightness(60%)",
     image_bordercolor: "#79acf3",
     // Width/height for the image
     image_width: "300px",
