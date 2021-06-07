@@ -35,7 +35,7 @@ var data = {
     // Color of the border
     image_bordercolor: "#79acf3",
     // Filters for the image.
-    image_filter: "grayscale(0%) brightness(60%)",
+    image_filter: "grayscale(0%) brightness(100%)",
     // Width/height for the image
     image_width: "300px",
     // Image source: you can use local files, or a link
