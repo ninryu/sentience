@@ -83,8 +83,23 @@ if (data.clock == true) {
 // search engine
 
 switch (data.search_engine) {
+    case "google":
+        search_engine = "https://google.com/search";
+        break;
     case "duckduckgo":
-        search_engine = "https://www.duckduckgo.com/";
+        search_engine = "https://www.duckduckgo.com/"
+        break;
+    case "qwant":
+        search_engine = "https://www.qwant.com/"
+        break;
+    case "startpage":
+        search_engine = "https://www.startpage.com/search"
+        break;
+    case "ecosia":
+        search_engine = "https://www.ecosia.org/search"
+        break;
+    case "youtube":
+        search_engine = "https://www.youtube.com/search"
         break;
     default:
         console.log("Please, choose a search engine from the list.")
