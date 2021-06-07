@@ -84,7 +84,7 @@ if (data.clock == true) {
 
 switch (data.search_engine) {
     case "duckduckgo":
-        search_engine = "https://www.duckduckgo.com/"
+        search_engine = "https://www.duckduckgo.com/";
         break;
     default:
         console.log("Please, choose a search engine from the list.")
