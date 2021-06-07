@@ -83,8 +83,6 @@ if (data.clock == true) {
 // search engine
 
 switch (data.search_engine) {
-    case "google":
-        break;
     case "duckduckgo":
         search_engine = "https://www.duckduckgo.com/"
         break;
